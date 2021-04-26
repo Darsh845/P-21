@@ -23,7 +23,7 @@ function draw() {
 
 background(0);
  
- if(wall.x-car.x < (car.weight+wall.weight)/2)
+ if(wall.x-car.x < (car.width+wall.width)/2)
 {
 
  car.velocityX = 0;
